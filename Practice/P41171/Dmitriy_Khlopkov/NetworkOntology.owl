@@ -285,7 +285,7 @@
                     <rdf:Description rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#WirelessPhysicalNetworkDevice"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#deviceForProtocol"/>
-                        <owl:someValuesFrom rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11"/>
+                        <owl:someValuesFrom rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_11"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -328,17 +328,17 @@
     
 
 
-    <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11 -->
+    <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_11 -->
 
-    <owl:Class rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11">
+    <owl:Class rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_11">
         <rdfs:subClassOf rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#WirelessPhysicalProtocol"/>
     </owl:Class>
     
 
 
-    <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1 -->
+    <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1 -->
 
-    <owl:Class rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1">
+    <owl:Class rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1">
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -368,7 +368,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth1.0 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth1.0">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -376,7 +376,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth1.1 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth1.1">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -384,7 +384,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth1.2 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth1.2">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -392,7 +392,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth2.0 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth2.0">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -400,7 +400,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth2.1 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth2.1">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -408,7 +408,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth3.0 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth3.0">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -416,7 +416,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth4.0 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth4.0">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -424,7 +424,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth4.1 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth4.1">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -432,7 +432,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth4.2 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth4.2">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -440,7 +440,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth5.0 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth5.0">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -448,7 +448,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth5.1 -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#Bluetooth5.1">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.15.1"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_15_1"/>
     </owl:NamedIndividual>
     
 
@@ -604,7 +604,7 @@
     <!-- https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11n -->
 
     <owl:NamedIndividual rdf:about="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11n">
-        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11"/>
+        <rdf:type rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802_11"/>
         <hasFrequencyRange rdf:resource="https://ifmo.ru/etsilence/ontologies/2021/4/network-ontology#802.11b/g/n/ax__frequencyRange"/>
     </owl:NamedIndividual>
     
